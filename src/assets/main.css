@@ -80,6 +80,10 @@
   line-height: 1.6;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   overflow-x: hidden;
@@ -87,7 +91,21 @@ body {
 }
 
 .container{
-  max-width: 1400px;
+  max-width: 1000px;
   margin: 0 auto;
   padding:0;
+}
+
+/* Personnalisation du scrollbar */
+::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-btn-border) !important;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ece5da !important;
 }

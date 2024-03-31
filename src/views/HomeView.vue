@@ -1,4 +1,4 @@
-<template >
+<template>
     <div>
         <div class="wrapper">
             <div class="">
@@ -8,7 +8,7 @@
                         <section id="home">
                             <Home></Home>
                         </section>
-                        <section class="about__section">
+                        <section class="about__section" id="about">
                             <About></About>
                         </section>
                         <section id="services">
@@ -23,6 +23,7 @@
                     </div>
                 </main>
                 <Footer></Footer>
+                <ReturnToTop></ReturnToTop>
             </div>
         </div>
     </div>
@@ -35,20 +36,21 @@ import About from '@/components/About.vue';
 import Contact from '@/components/Contact.vue';
 import Portfolio from '@/components/Portfolio.vue';
 import Service from '@/components/Service.vue';
+import ReturnToTop from '@/components/ReturnToTop.vue';
 </script>
 <style>
-.main__container section{
+.main__container section {
     margin-bottom: 100px;
 }
 
-.about__section{
+.about__section {
     background-color: var(--color-background-soft);
     padding: 20px 0 50px 0;
     border-top-left-radius: 150px;
     border-bottom-right-radius: 150px;
 }
 
-.portfolio__section{
+.portfolio__section {
     background-color: var(--color-background-soft);
     padding: 20px 0 50px 0;
 }

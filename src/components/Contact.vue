@@ -1,4 +1,4 @@
-<template >
+<template>
     <div class="container">
         <div>
             <p class="title">Voulez-vous me contacter ? </p>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="information__container">
                     <div>
-                       <IconMessage></IconMessage>
+                        <IconMessage></IconMessage>
                     </div>
                     <div class="fa_sharp_sous">
                         <h2>Adresse e-mail</h2>
@@ -127,7 +127,7 @@ import IconLocation from './icons/IconLocation.vue';
 
 .contact__content {
     display: flex;
-    gap: 200px;
+    gap: 100px;
 }
 
 .information__container {
@@ -176,7 +176,7 @@ import IconLocation from './icons/IconLocation.vue';
 textarea {
     border: 1px solid rgb(207, 207, 207);
     margin-left: 5px;
-    width: 500px;
+    width: 450px;
     border-radius: 5px;
     resize: none;
     outline: none;
@@ -192,7 +192,7 @@ hr {
     width: 220px;
 }
 
-.icon__container{
+.icon__container {
     display: flex;
     gap: 6px;
     align-items: center;
