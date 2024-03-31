@@ -157,7 +157,9 @@ import IconX from './icons/IconX.vue';
     .icone_reseau {
         gap: 10px;
     }
+}
 
+@media(max-width: 600px) {
     .arrow__doodle {
         display: none;
     }
