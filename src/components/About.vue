@@ -12,7 +12,7 @@
                         dernières
                         technologies et les meilleurs pratiques de développement et de conception.
                     </p>
-                    <p>
+                    <p class="second">
                         Mon souci du détail et mon sens aigu de l’esthétique me permettent de créer des designs
                         uniques,
                         personnalisés pour chaque projet et d’être reconnu en tant que jeune créatif et innovateur
@@ -121,5 +121,20 @@
 .picture img {
     border-radius: 10px;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.227);
+}
+
+@media(max-width: 400px) {
+    .about__container h1 {
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .second {
+        display: none;
+    }
+
+    .about__content__left {
+        padding: 20px;
+    }
 }
 </style>

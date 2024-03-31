@@ -108,7 +108,7 @@ h1 {
     text-align: center;
     height: 210px;
     width: 270px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,16 +123,17 @@ h1 {
 }
 
 .service__line img {
-    height: 80px;
+    height: 50px;
 }
 
-/* .service__container:hover {
-    background-color: black;
-    color: yellow;
-}
+@media(max-width: 400px) {
+    .service {
+        margin-left: -15px;
+        margin-right: 10px;
+    }
 
-.service__container i:hover,
-.service__container p:hover {
-    color: yellow;
-} */
+    h1 {
+        font-size: 3rem;
+    }
+}
 </style>

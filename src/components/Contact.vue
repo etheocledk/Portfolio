@@ -20,9 +20,9 @@
                         <label for="message">Votre message :</label>
                     </div>
                     <div class="input__container">
-                        <input type="text" placeholder="John Doe">
-                        <input type="tel" placeholder="(+229) 00000000">
-                        <input type="email" placeholder="johndoe@example.xyz">
+                        <input type="text" placeholder="Votre nom & prénom">
+                        <input type="tel" placeholder="Votre numéro téléphonique">
+                        <input type="email" placeholder="Votre adresse e-mail">
                         <textarea name="message" id="message" cols="30" rows="10" maxlength="500"
                             placeholder="Votre message..."></textarea>
                         <div class="btn">
@@ -128,6 +128,7 @@ import IconLocation from './icons/IconLocation.vue';
 .contact__content {
     display: flex;
     gap: 100px;
+    flex-wrap: wrap;
 }
 
 .information__container {
@@ -170,13 +171,14 @@ import IconLocation from './icons/IconLocation.vue';
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 450px;
 }
 
 .input__container input,
 textarea {
     border: 1px solid rgb(207, 207, 207);
     margin-left: 5px;
-    width: 450px;
+    width: 100%;
     border-radius: 5px;
     resize: none;
     outline: none;
@@ -196,5 +198,32 @@ hr {
     display: flex;
     gap: 6px;
     align-items: center;
+}
+
+@media(max-width: 660px) {
+    .label__container {
+        display: none;
+    }
+
+    .contact__content {
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .input__container {
+        width: 380px;
+    }
+}
+
+
+@media(max-width: 400px) {
+    .title {
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .input__container {
+        max-width: 280px;
+    }
 }
 </style>

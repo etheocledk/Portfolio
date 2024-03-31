@@ -24,4 +24,10 @@ fullyear.value = date.getFullYear()
     display: flex;
     justify-content: center;
 }
+
+@media(max-width: 400px) {
+    .container div {
+        text-align: center;
+    }
+}
 </style>

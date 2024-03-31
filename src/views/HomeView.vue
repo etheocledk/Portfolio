@@ -40,7 +40,7 @@ import ReturnToTop from '@/components/ReturnToTop.vue';
 </script>
 <style>
 .main__container section {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .about__section {
