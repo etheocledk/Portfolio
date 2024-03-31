@@ -145,10 +145,6 @@ import IconX from './icons/IconX.vue';
 }
 
 @media(max-width: 400px) {
-    .title {
-        font-size: 2rem;
-        text-align: center;
-    }
 
     .content {
         font-size: 1.5rem
@@ -162,6 +158,15 @@ import IconX from './icons/IconX.vue';
 @media(max-width: 600px) {
     .arrow__doodle {
         display: none;
+    }
+
+    .title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .banner__content {
+        padding: 0 15px;
     }
 }
 </style>
