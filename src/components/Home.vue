@@ -30,11 +30,10 @@
             </div>
             <div class="btn">
                 <div class="btn__left">
-                    <a href="">Me contacter</a>
+                    <a href="#contact">Me contacter</a>
                 </div>
                 <div class="btn__right">
-                    <a href="./assets/img/Simplify and Professional Graphic Designer Resume -1.pdf" target="_blank"
-                        rel="noreferrer" class="cv">↓ Mon CV</a>
+                    <a href="../assets/images/cv.pdf" download target="_blank" rel="noreferrer" class="cv">↓ Mon CV</a>
                 </div>
                 <div class="arrow__doodle">
                     <img src="../assets/images/arrow_doodle_1.svg" alt="">

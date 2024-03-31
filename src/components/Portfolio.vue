@@ -4,6 +4,41 @@
         <div class="project__container">
             <div class="project__frame">
                 <div>
+                    <img src="../assets/images/projet 1.PNG" alt="" width="700px">
+                </div>
+                <div class="project__description">
+                    <div class="arrow__container">
+                        <h1 class="project_name"> <a href="https://etheocledk.vercel.app/" target="_blank">Portfolio</a>
+                        </h1>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 36 36">
+                                <g transform="rotate(45 18 18)">
+                                    <path fill="currentColor"
+                                        d="M27.66 15.61L18 6l-9.66 9.61A1 1 0 1 0 9.75 17L17 9.81v19.13a1 1 0 1 0 2 0V9.81L26.25 17a1 1 0 0 0 1.41-1.42Z"
+                                        class="clr-i-outline clr-i-outline-path-1" />
+                                    <path fill="none" d="M0 0h36v36H0z" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <p>Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently
+                        played
+                        tracks, and detailed audio information about each track. Create and save new playlists of
+                        recommended tracks based on your existing playlists and more.
+                    </p>
+                    <div class="stack">
+                        <span>Vuejs</span>
+                        <span>JavaScript</span>
+                        <span>Vercel</span>
+                        <span>CSS</span>
+                        <span>Html</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project__frame">
+                <div>
                     <img src="../assets/images/7510722.jpg" alt="" width="700px">
                 </div>
                 <div class="project__description">
@@ -25,7 +60,7 @@
                         tracks, and detailed audio information about each track. Create and save new playlists of
                         recommended tracks based on your existing playlists and more.
                     </p>
-                    <div>
+                    <div class="stack">
                         <span>Laravel</span>
                     </div>
                 </div>
@@ -55,7 +90,7 @@
                         tracks, and detailed audio information about each track. Create and save new playlists of
                         recommended tracks based on your existing playlists and more.
                     </p>
-                    <div>
+                    <div class="stack">
                         <span>Laravel</span>
                     </div>
                 </div>
@@ -85,37 +120,7 @@
                         tracks, and detailed audio information about each track. Create and save new playlists of
                         recommended tracks based on your existing playlists and more.
                     </p>
-                    <div>
-                        <span>Laravel</span>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="project__frame">
-                <div>
-                    <img src="../assets/images/7510722.jpg" alt="" width="700px">
-                </div>
-                <div class="project__description">
-                    <div class="arrow__container">
-                        <h1>Spotify Profile</h1>
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 36 36">
-                                <g transform="rotate(45 18 18)">
-                                    <path fill="currentColor"
-                                        d="M27.66 15.61L18 6l-9.66 9.61A1 1 0 1 0 9.75 17L17 9.81v19.13a1 1 0 1 0 2 0V9.81L26.25 17a1 1 0 0 0 1.41-1.42Z"
-                                        class="clr-i-outline clr-i-outline-path-1" />
-                                    <path fill="none" d="M0 0h36v36H0z" />
-                                </g>
-                            </svg>
-                        </div>
-                    </div>
-                    <p>Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently
-                        played
-                        tracks, and detailed audio information about each track. Create and save new playlists of
-                        recommended tracks based on your existing playlists and more.
-                    </p>
-                    <div>
+                    <div class="stack">
                         <span>Laravel</span>
                     </div>
                 </div>
@@ -152,8 +157,8 @@ p.title {
     background-color: var(--color-background);
 }
 
-.project__description h1 {
-    font-weight: 600;
+.project__description h1 a {
+    font-weight: 700;
     margin-bottom: 3px;
 }
 
@@ -173,12 +178,22 @@ p.title {
     margin-top: 5px;
 }
 
+.stack {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
 .arrow__container {
     display: flex;
     align-items: center;
 }
 
-@media(max-width: 400px) {
+.project_name a:hover {
+    color: var(--color-btn-background);
+}
+
+@media(max-width: 500px) {
     .title {
         font-size: 1.5rem;
         line-height: 1;
