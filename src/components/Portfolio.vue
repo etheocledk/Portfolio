@@ -4,7 +4,7 @@
         <div class="project__container">
             <div class="project__frame">
                 <div>
-                    <img src="../assets/images/projet 1.PNG" alt="" width="700px">
+                    <img src="../assets/images/projet.png" alt="" width="700px">
                 </div>
                 <div class="project__description">
                     <div class="arrow__container">
