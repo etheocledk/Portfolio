@@ -139,5 +139,9 @@
     .about__content__left {
         padding: 20px;
     }
+
+    .about__arrow {
+        display: none;
+    }
 }
 </style>
